@@ -1,0 +1,135 @@
+@import "../_mixin.scss","../_footer.scss";
+
+/*Estilo header*/
+header { 
+	background:#000000; 
+}
+
+
+/*Estilo main seccion-iphone13*/
+.seccion-iphone13 {
+	background-color: #000000;
+
+	.titulo-header {	
+		padding-top:30px;
+		@include display-center;
+		h1 {
+			font-family: 'Oswald', sans-serif;
+			color:white;
+		}
+	}
+
+	.parrafo-header {
+		@include display-center;
+		p {
+			font-family: 'Poppins', sans-serif;
+			color: white;
+			text-align: center;
+		}
+	}
+
+	.info-header {
+		@include display-center;
+		a {
+			color: #3265EE;
+			
+			i {
+				padding-left: 5px;
+			}
+		}
+	}
+
+	.imagen-header img {
+		@include tamaño-imagen;
+		animation-name: opacar;
+		animation-duration: 6s;
+	}
+
+	@keyframes opacar {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+}
+
+
+/*Estilo main seccion-tienda*/
+.seccion-tienda {
+	background-color: #F7F4F7;
+	padding-top: 30px;
+
+	.titulo-watch {
+		@include display-center;
+		h2 {
+			font-family: 'Oswald', sans-serif;
+			color: black;
+		}
+
+		i {
+			padding-right: 5px;
+		}
+	}
+
+	.parrafo-watch {
+		@include display-center;
+		p {
+			font-family: 'Poppins', sans-serif;
+			color: black;
+			text-align: center;
+		}
+	}
+
+	.info-watch {
+		@include display-center;
+		a {
+			color: #3265EE;
+
+			i {
+				padding-left: 5px;
+			}
+		}
+	}
+
+	.imagen-watch {
+		img {
+			@include tamaño-imagen;
+		}
+	}
+}
+
+
+/*Estilo main seccion-nosotros*/
+#nosotros {
+	background-image: url("../utils/imagenes/nosotros.jpg");
+	background-size: cover;
+	height: 650px;
+
+	.titulo-nosotros {
+		padding-top:30px;
+		@include display-center;
+		h2 {
+			font-family: 'Oswald', sans-serif;
+			color:white;
+		}
+
+	}
+
+	.parrafo-nosotros {
+			@include display-center;
+			p {
+				color: black;
+				text-align: center;
+			}
+	}
+
+	.iframe {
+		@include display-center;
+
+	}
+}
+
+

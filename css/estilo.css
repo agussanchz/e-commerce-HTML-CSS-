@@ -1,0 +1,474 @@
+footer {
+  background-color: black;
+  height: 200px;
+  padding-top: 30px; }
+
+.parrafo-footer {
+  display: flex;
+  justify-content: center; }
+  .parrafo-footer p {
+    font-family: 'Oswald', sans-serif;
+    color: white; }
+
+.insta {
+  display: flex;
+  justify-content: center; }
+  .insta a img {
+    width: 50px;
+    height: 50px; }
+
+.face {
+  display: flex;
+  justify-content: center; }
+  .face a img {
+    width: 50px;
+    height: 50px; }
+
+/*Estilo header*/
+header {
+  background: #000000; }
+
+/*Estilo main seccion-iphone13*/
+.seccion-iphone13 {
+  background-color: #000000; }
+  .seccion-iphone13 .titulo-header {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center; }
+    .seccion-iphone13 .titulo-header h1 {
+      font-family: 'Oswald', sans-serif;
+      color: white; }
+  .seccion-iphone13 .parrafo-header {
+    display: flex;
+    justify-content: center; }
+    .seccion-iphone13 .parrafo-header p {
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      text-align: center; }
+  .seccion-iphone13 .info-header {
+    display: flex;
+    justify-content: center; }
+    .seccion-iphone13 .info-header a {
+      color: #3265EE; }
+      .seccion-iphone13 .info-header a i {
+        padding-left: 5px; }
+  .seccion-iphone13 .imagen-header img {
+    width: 100%;
+    height: auto;
+    animation-name: opacar;
+    animation-duration: 6s; }
+
+@keyframes opacar {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*Estilo main seccion-tienda*/
+.seccion-tienda {
+  background-color: #F7F4F7;
+  padding-top: 30px; }
+  .seccion-tienda .titulo-watch {
+    display: flex;
+    justify-content: center; }
+    .seccion-tienda .titulo-watch h2 {
+      font-family: 'Oswald', sans-serif;
+      color: black; }
+    .seccion-tienda .titulo-watch i {
+      padding-right: 5px; }
+  .seccion-tienda .parrafo-watch {
+    display: flex;
+    justify-content: center; }
+    .seccion-tienda .parrafo-watch p {
+      font-family: 'Poppins', sans-serif;
+      color: black;
+      text-align: center; }
+  .seccion-tienda .info-watch {
+    display: flex;
+    justify-content: center; }
+    .seccion-tienda .info-watch a {
+      color: #3265EE; }
+      .seccion-tienda .info-watch a i {
+        padding-left: 5px; }
+  .seccion-tienda .imagen-watch img {
+    width: 100%;
+    height: auto; }
+
+/*Estilo main seccion-nosotros*/
+#nosotros {
+  background-image: url("../utils/imagenes/nosotros.jpg");
+  background-size: cover;
+  height: 650px; }
+  #nosotros .titulo-nosotros {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center; }
+    #nosotros .titulo-nosotros h2 {
+      font-family: 'Oswald', sans-serif;
+      color: white; }
+  #nosotros .parrafo-nosotros {
+    display: flex;
+    justify-content: center; }
+    #nosotros .parrafo-nosotros p {
+      color: black;
+      text-align: center; }
+  #nosotros .iframe {
+    display: flex;
+    justify-content: center; }
+
+footer {
+  background-color: black;
+  height: 200px;
+  padding-top: 30px; }
+
+.parrafo-footer {
+  display: flex;
+  justify-content: center; }
+  .parrafo-footer p {
+    font-family: 'Oswald', sans-serif;
+    color: white; }
+
+.insta {
+  display: flex;
+  justify-content: center; }
+  .insta a img {
+    width: 50px;
+    height: 50px; }
+
+.face {
+  display: flex;
+  justify-content: center; }
+  .face a img {
+    width: 50px;
+    height: 50px; }
+
+/*Estilo titulo de entrada*/
+.cartel-store {
+  background-color: #000000; }
+  .cartel-store .titulo-tienda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px; }
+    .cartel-store .titulo-tienda h2 {
+      font-size: 90px;
+      font-family: 'Fjalla One', sans-serif;
+      color: white;
+      animation-name: opacar;
+      animation-duration: 4s; }
+
+@keyframes opacar {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*Estilo seccion celulares*/
+.section-iphone .titulo-iphone {
+  display: flex;
+  justify-content: center; }
+  .section-iphone .titulo-iphone h2 {
+    padding-top: 30px; }
+
+.section-iphone .section-celulares {
+  padding: 5px; }
+  .section-iphone .section-celulares .card-body p {
+    text-align: center; }
+  .section-iphone .section-celulares .card {
+    background-color: #FAF8FA; }
+  .section-iphone .section-celulares .card:hover {
+    background-color: #CACFD2; }
+  .section-iphone .section-celulares .iphone13 {
+    display: flex;
+    justify-content: center; }
+  .section-iphone .section-celulares .iphonex {
+    display: flex;
+    justify-content: center; }
+  .section-iphone .section-celulares .iphonexr {
+    display: flex;
+    justify-content: center; }
+  .section-iphone .section-celulares .iphone7-8p {
+    display: flex;
+    justify-content: center; }
+
+/*Estilo seccion relojes*/
+.section-watch .titulo-watch {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px; }
+
+.section-watch .section-relojes {
+  padding: 5px; }
+  .section-watch .section-relojes .card-body p {
+    text-align: center; }
+  .section-watch .section-relojes .card {
+    background-color: #FAF8FA; }
+  .section-watch .section-relojes .card:hover {
+    background-color: #CACFD2; }
+  .section-watch .section-relojes .watch-se {
+    display: flex;
+    justify-content: center; }
+  .section-watch .section-relojes .watch-26 {
+    display: flex;
+    justify-content: center; }
+  .section-watch .section-relojes .watch-serie6 {
+    display: flex;
+    justify-content: center; }
+
+/*Estilo seccion macbook-airpods*/
+.section-macbook-airpods .contenedor {
+  display: flex;
+  justify-content: center;
+  padding: 10px; }
+  .section-macbook-airpods .contenedor .macbook {
+    border: solid 1px black; }
+    .section-macbook-airpods .contenedor .macbook .titulo-macbook {
+      display: flex;
+      justify-content: center; }
+    .section-macbook-airpods .contenedor .macbook .parrafo-macbook {
+      display: flex;
+      justify-content: center; }
+    .section-macbook-airpods .contenedor .macbook .imagen-macbook {
+      display: flex;
+      justify-content: center; }
+      .section-macbook-airpods .contenedor .macbook .imagen-macbook img {
+        width: 100%;
+        height: auto; }
+  .section-macbook-airpods .contenedor .airpods {
+    border: solid 1px black; }
+    .section-macbook-airpods .contenedor .airpods .titulo-airpods {
+      display: flex;
+      justify-content: center; }
+    .section-macbook-airpods .contenedor .airpods .parrafo-airpods {
+      display: flex;
+      justify-content: center; }
+    .section-macbook-airpods .contenedor .airpods .imagen-airpods {
+      display: flex;
+      justify-content: center; }
+      .section-macbook-airpods .contenedor .airpods .imagen-airpods img {
+        width: 100%;
+        height: auto; }
+
+/*Estilo seccion ipad, apple-tv*/
+.section-ipad-tv .ipad-tv {
+  display: flex;
+  justify-content: center; }
+  .section-ipad-tv .ipad-tv .ipad {
+    border: solid 1px black; }
+    .section-ipad-tv .ipad-tv .ipad .titulo-ipad {
+      display: flex;
+      justify-content: center; }
+    .section-ipad-tv .ipad-tv .ipad .parrafo-ipad {
+      display: flex;
+      justify-content: center; }
+    .section-ipad-tv .ipad-tv .ipad .imagen-ipad {
+      display: flex;
+      justify-content: center; }
+      .section-ipad-tv .ipad-tv .ipad .imagen-ipad img {
+        width: 100%;
+        height: auto; }
+  .section-ipad-tv .ipad-tv .apple-tv {
+    border: solid 1px black; }
+    .section-ipad-tv .ipad-tv .apple-tv .titulo-tv {
+      display: flex;
+      justify-content: center; }
+    .section-ipad-tv .ipad-tv .apple-tv .parrafo-tv {
+      display: flex;
+      justify-content: center; }
+    .section-ipad-tv .ipad-tv .apple-tv .imagen-tv {
+      display: flex;
+      justify-content: center; }
+      .section-ipad-tv .ipad-tv .apple-tv .imagen-tv img {
+        width: 100%;
+        height: auto; }
+
+footer {
+  background-color: black;
+  height: 200px;
+  padding-top: 30px; }
+
+.parrafo-footer {
+  display: flex;
+  justify-content: center; }
+  .parrafo-footer p {
+    font-family: 'Oswald', sans-serif;
+    color: white; }
+
+.insta {
+  display: flex;
+  justify-content: center; }
+  .insta a img {
+    width: 50px;
+    height: 50px; }
+
+.face {
+  display: flex;
+  justify-content: center; }
+  .face a img {
+    width: 50px;
+    height: 50px; }
+
+/*Estilo section-1 iphone13*/
+.section-1 {
+  background: lightblue; }
+  .section-1 .titulo-section1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px; }
+    .section-1 .titulo-section1 span {
+      font-size: 25px;
+      font-family: 'Oswald', sans-serif; }
+  .section-1 .subtitulo-section1 {
+    display: flex;
+    justify-content: center; }
+    .section-1 .subtitulo-section1 h1 {
+      font-size: 70px;
+      text-align: center; }
+  .section-1 .parrafo-section1 {
+    display: flex;
+    justify-content: center; }
+    .section-1 .parrafo-section1 p {
+      text-align: center; }
+  .section-1 .imagen-section1 {
+    display: flex;
+    justify-content: center; }
+    .section-1 .imagen-section1 img {
+      width: 100%;
+      height: auto; }
+
+/*Estilo seccion especificaciones del iphone*/
+.section-especificaciones .especificaciones {
+  padding-top: 30px; }
+  .section-especificaciones .especificaciones .imagen-especificaciones {
+    display: flex;
+    justify-content: center; }
+    .section-especificaciones .especificaciones .imagen-especificaciones img {
+      width: 100%;
+      height: auto; }
+
+/*Estilo seccion pantalla del iphone*/
+.section-pantalla {
+  padding-top: 30px; }
+  .section-pantalla .pantalla .img-pantalla {
+    background-color: black;
+    border: 1px solid black; }
+    .section-pantalla .pantalla .img-pantalla .titulo-pantalla {
+      display: flex;
+      justify-content: start; }
+      .section-pantalla .pantalla .img-pantalla .titulo-pantalla h2 {
+        color: white; }
+    .section-pantalla .pantalla .img-pantalla .imagen-pantalla img {
+      width: 100%;
+      height: auto; }
+  .section-pantalla .pantalla .caracteristicas {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+footer {
+  background-color: black;
+  height: 200px;
+  padding-top: 30px; }
+
+.parrafo-footer {
+  display: flex;
+  justify-content: center; }
+  .parrafo-footer p {
+    font-family: 'Oswald', sans-serif;
+    color: white; }
+
+.insta {
+  display: flex;
+  justify-content: center; }
+  .insta a img {
+    width: 50px;
+    height: 50px; }
+
+.face {
+  display: flex;
+  justify-content: center; }
+  .face a img {
+    width: 50px;
+    height: 50px; }
+
+/*Estilo main Contacto*/
+.contacto {
+  background-image: url("../utils/imagenes/ImgContacto.jpg");
+  background-size: cover;
+  /*Estilo formuilario contacto*/ }
+  .contacto .titulo-contacto {
+    display: flex;
+    justify-content: center; }
+    .contacto .titulo-contacto h2 {
+      color: #fff;
+      text-align: center; }
+  .contacto .subtitulo-contacto {
+    display: flex;
+    justify-content: center; }
+    .contacto .subtitulo-contacto h2 {
+      color: #fff;
+      text-align: center; }
+  .contacto .parrafo-contacto {
+    display: flex;
+    justify-content: center; }
+    .contacto .parrafo-contacto p {
+      color: #fff;
+      text-align: center; }
+  .contacto .formulario {
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    animation-name: opacar;
+    animation-duration: 7s; }
+
+@keyframes opacar {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+    .contacto .formulario h2 {
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      font-size: 30px;
+      margin-bottom: 20px; }
+    .contacto .formulario input, .contacto .formulario textarea {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 7px;
+      box-sizing: border-box;
+      font-size: 17px;
+      border: none; }
+    .contacto .formulario textarea {
+      min-height: 200px;
+      max-height: 200px;
+      max-width: 100%; }
+
+footer {
+  background-color: black;
+  height: 200px;
+  padding-top: 30px; }
+
+.parrafo-footer {
+  display: flex;
+  justify-content: center; }
+  .parrafo-footer p {
+    font-family: 'Oswald', sans-serif;
+    color: white; }
+
+.insta {
+  display: flex;
+  justify-content: center; }
+  .insta a img {
+    width: 50px;
+    height: 50px; }
+
+.face {
+  display: flex;
+  justify-content: center; }
+  .face a img {
+    width: 50px;
+    height: 50px; }

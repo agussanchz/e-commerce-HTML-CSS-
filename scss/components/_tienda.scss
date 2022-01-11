@@ -1,0 +1,192 @@
+@import "../_mixin.scss","../_footer.scss";
+/*Estilo titulo de entrada*/
+.cartel-store {
+	background-color: #000000;
+	.titulo-tienda {
+		@include display-center;
+		align-items: center;
+		height: 500px;		
+		h2 {
+			font-size: 90px;
+			font-family: 'Fjalla One', sans-serif;
+			color: white;
+			animation-name: opacar;
+			animation-duration: 4s;
+		}
+		@keyframes opacar {
+			0% {
+				opacity:0;
+			}
+
+			100% {
+				opacity:1;
+			}
+		}
+	}
+}
+
+/*Estilo seccion celulares*/
+.section-iphone {
+	.titulo-iphone {
+		@include display-center;
+		h2 {
+			padding-top: 30px;
+		}
+	}
+
+	.section-celulares {
+		padding: 5px;
+		.card-body p {
+			text-align: center;
+		}
+		.card {
+			background-color: #FAF8FA;
+		}
+
+		.card:hover {
+			background-color: #CACFD2;
+		}
+
+		.iphone13 {
+			@include display-center;		
+
+		}
+
+		.iphonex {
+			@include display-center;
+
+		}
+
+		.iphonexr {
+			@include display-center;
+
+		}
+
+		.iphone7-8p {
+			@include display-center;
+
+		}
+	}
+}
+
+/*Estilo seccion relojes*/
+.section-watch {
+	.titulo-watch {
+		@include display-center;
+		padding-top: 30px;
+	}
+
+	.section-relojes{
+		padding: 5px;
+		.card-body p {
+			text-align: center;
+		}
+		.card {
+			background-color: #FAF8FA;
+		}
+
+		.card:hover {
+			background-color: #CACFD2;
+		}	
+
+		.watch-se {
+			@include display-center;
+
+		}
+
+		.watch-26 {
+			@include display-center;
+		}
+
+		.watch-serie6 {
+			@include display-center;
+		}
+	}
+}
+
+/*Estilo seccion macbook-airpods*/
+.section-macbook-airpods {
+	.contenedor {
+		@include display-center;
+		padding: 10px;
+
+		.macbook {
+			border:solid 1px black;
+			.titulo-macbook {
+				@include display-center;
+			}
+			.parrafo-macbook {
+				@include display-center;
+			}
+			.imagen-macbook {
+				@include display-center;
+				img {
+					@include tamaño-imagen;
+				}
+				
+			}
+		}
+
+		.airpods {
+			border:solid 1px black;
+			.titulo-airpods {
+				@include display-center;
+			}
+			.parrafo-airpods {
+				@include display-center;
+			}
+			.imagen-airpods {
+				@include display-center;
+				img {
+					@include tamaño-imagen;
+				}
+			}
+		}
+
+	}
+}
+
+/*Estilo seccion ipad, apple-tv*/
+.section-ipad-tv {
+	.ipad-tv {
+		@include display-center;
+		.ipad {
+			border:solid 1px black;
+			.titulo-ipad {
+				@include display-center;
+
+			}
+
+			.parrafo-ipad {
+				@include display-center;
+			}
+
+			.imagen-ipad {
+				@include display-center;
+				img {
+					@include tamaño-imagen;
+				}
+			}
+
+
+		}
+
+		.apple-tv {
+			border:solid 1px black;
+			.titulo-tv {
+				@include display-center;
+			}
+
+			.parrafo-tv {
+				@include display-center;
+			}
+
+			.imagen-tv {
+				@include display-center;
+				img {
+					@include tamaño-imagen;
+				}
+			}
+		}
+	}
+}

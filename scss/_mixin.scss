@@ -1,0 +1,14 @@
+@mixin display-center {
+	display: flex;
+	justify-content: center;
+}
+
+@mixin display-start {
+	display: flex;
+	justify-content: start;
+}
+
+@mixin tamaño-imagen {
+	width: 100%;
+	height: auto;
+}

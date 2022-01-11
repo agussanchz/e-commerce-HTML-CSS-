@@ -1,0 +1,81 @@
+@import "../_mixin.scss","../_footer.scss";
+
+/*Estilo section-1 iphone13*/
+.section-1 {
+	background: lightblue;
+	.titulo-section1 {
+		@include display-center; 
+		padding-top: 30px;
+		span {
+			font-size: 25px;
+			font-family: 'Oswald', sans-serif;
+		}
+	}
+
+	.subtitulo-section1 {
+		@include display-center;
+		h1 {
+			font-size: 70px;
+			text-align: center;
+		}
+		
+	}
+
+	.parrafo-section1 {
+		@include display-center;
+		p {
+			text-align: center;
+		}
+	}
+
+	.imagen-section1 {
+		@include display-center;
+		img {
+			@include tamaño-imagen;
+		}
+	}
+}
+
+
+/*Estilo seccion especificaciones del iphone*/
+.section-especificaciones {
+	.especificaciones {
+		padding-top: 30px;
+		.imagen-especificaciones {
+			@include display-center;
+			img {
+				@include tamaño-imagen;
+			}
+		}
+	}
+}
+
+/*Estilo seccion pantalla del iphone*/
+.section-pantalla {
+	padding-top: 30px;
+	.pantalla {
+		.img-pantalla {
+			background-color: black;
+			border: 1px solid black;
+			.titulo-pantalla {
+				@include display-start;
+				h2 {
+					color:white;
+				}
+			}
+			.imagen-pantalla {
+				img {
+					@include tamaño-imagen;
+				}
+			}
+		}
+
+		.caracteristicas {
+			border: 1px solid black;
+			@include display-center;
+			align-items: center;
+		}	
+	}
+
+
+}
