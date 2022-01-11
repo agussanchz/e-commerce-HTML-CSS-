@@ -12,3 +12,17 @@
 	width: 100%;
 	height: auto;
 }
+
+@mixin estilos-card {
+	.card {
+		background-color: #FAF8FA;
+	}
+
+	.card:hover {
+		background-color: #CACFD2;
+	}	
+
+	.card-body p {
+		text-align: center;
+	}
+}

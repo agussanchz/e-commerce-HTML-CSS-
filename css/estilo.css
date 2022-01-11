@@ -7,7 +7,6 @@ footer {
   display: flex;
   justify-content: center; }
   .parrafo-footer p {
-    font-family: 'Oswald', sans-serif;
     color: white; }
 
 .insta {
@@ -125,7 +124,6 @@ footer {
   display: flex;
   justify-content: center; }
   .parrafo-footer p {
-    font-family: 'Oswald', sans-serif;
     color: white; }
 
 .insta {
@@ -145,17 +143,18 @@ footer {
 /*Estilo titulo de entrada*/
 .cartel-store {
   background-color: #000000; }
-  .cartel-store .titulo-tienda {
-    display: flex;
-    justify-content: center;
+  .cartel-store .tienda {
+    width: 100%;
+    height: 500px;
     align-items: center;
-    height: 500px; }
-    .cartel-store .titulo-tienda h2 {
+    display: flex;
+    justify-content: center; }
+    .cartel-store .tienda .titulo-tienda h2 {
       font-size: 90px;
       font-family: 'Fjalla One', sans-serif;
       color: white;
       animation-name: opacar;
-      animation-duration: 4s; }
+      animation-duration: 3s; }
 
 @keyframes opacar {
   0% {
@@ -172,24 +171,42 @@ footer {
 
 .section-iphone .section-celulares {
   padding: 5px; }
-  .section-iphone .section-celulares .card-body p {
-    text-align: center; }
-  .section-iphone .section-celulares .card {
-    background-color: #FAF8FA; }
-  .section-iphone .section-celulares .card:hover {
-    background-color: #CACFD2; }
   .section-iphone .section-celulares .iphone13 {
     display: flex;
     justify-content: center; }
+    .section-iphone .section-celulares .iphone13 .card {
+      background-color: #FAF8FA; }
+    .section-iphone .section-celulares .iphone13 .card:hover {
+      background-color: #CACFD2; }
+    .section-iphone .section-celulares .iphone13 .card-body p {
+      text-align: center; }
   .section-iphone .section-celulares .iphonex {
     display: flex;
     justify-content: center; }
+    .section-iphone .section-celulares .iphonex .card {
+      background-color: #FAF8FA; }
+    .section-iphone .section-celulares .iphonex .card:hover {
+      background-color: #CACFD2; }
+    .section-iphone .section-celulares .iphonex .card-body p {
+      text-align: center; }
   .section-iphone .section-celulares .iphonexr {
     display: flex;
     justify-content: center; }
+    .section-iphone .section-celulares .iphonexr .card {
+      background-color: #FAF8FA; }
+    .section-iphone .section-celulares .iphonexr .card:hover {
+      background-color: #CACFD2; }
+    .section-iphone .section-celulares .iphonexr .card-body p {
+      text-align: center; }
   .section-iphone .section-celulares .iphone7-8p {
     display: flex;
     justify-content: center; }
+    .section-iphone .section-celulares .iphone7-8p .card {
+      background-color: #FAF8FA; }
+    .section-iphone .section-celulares .iphone7-8p .card:hover {
+      background-color: #CACFD2; }
+    .section-iphone .section-celulares .iphone7-8p .card-body p {
+      text-align: center; }
 
 /*Estilo seccion relojes*/
 .section-watch .titulo-watch {
@@ -199,27 +216,39 @@ footer {
 
 .section-watch .section-relojes {
   padding: 5px; }
-  .section-watch .section-relojes .card-body p {
-    text-align: center; }
-  .section-watch .section-relojes .card {
-    background-color: #FAF8FA; }
-  .section-watch .section-relojes .card:hover {
-    background-color: #CACFD2; }
   .section-watch .section-relojes .watch-se {
     display: flex;
     justify-content: center; }
+    .section-watch .section-relojes .watch-se .card {
+      background-color: #FAF8FA; }
+    .section-watch .section-relojes .watch-se .card:hover {
+      background-color: #CACFD2; }
+    .section-watch .section-relojes .watch-se .card-body p {
+      text-align: center; }
   .section-watch .section-relojes .watch-26 {
     display: flex;
     justify-content: center; }
+    .section-watch .section-relojes .watch-26 .card {
+      background-color: #FAF8FA; }
+    .section-watch .section-relojes .watch-26 .card:hover {
+      background-color: #CACFD2; }
+    .section-watch .section-relojes .watch-26 .card-body p {
+      text-align: center; }
   .section-watch .section-relojes .watch-serie6 {
     display: flex;
     justify-content: center; }
+    .section-watch .section-relojes .watch-serie6 .card {
+      background-color: #FAF8FA; }
+    .section-watch .section-relojes .watch-serie6 .card:hover {
+      background-color: #CACFD2; }
+    .section-watch .section-relojes .watch-serie6 .card-body p {
+      text-align: center; }
 
 /*Estilo seccion macbook-airpods*/
 .section-macbook-airpods .contenedor {
   display: flex;
   justify-content: center;
-  padding: 10px; }
+  padding-top: 10px; }
   .section-macbook-airpods .contenedor .macbook {
     border: solid 1px black; }
     .section-macbook-airpods .contenedor .macbook .titulo-macbook {
@@ -291,7 +320,6 @@ footer {
   display: flex;
   justify-content: center; }
   .parrafo-footer p {
-    font-family: 'Oswald', sans-serif;
     color: white; }
 
 .insta {
@@ -375,7 +403,6 @@ footer {
   display: flex;
   justify-content: center; }
   .parrafo-footer p {
-    font-family: 'Oswald', sans-serif;
     color: white; }
 
 .insta {
@@ -399,7 +426,8 @@ footer {
   /*Estilo formuilario contacto*/ }
   .contacto .titulo-contacto {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    padding-top: 30px; }
     .contacto .titulo-contacto h2 {
       color: #fff;
       text-align: center; }
@@ -456,7 +484,6 @@ footer {
   display: flex;
   justify-content: center; }
   .parrafo-footer p {
-    font-family: 'Oswald', sans-serif;
     color: white; }
 
 .insta {

@@ -6,6 +6,7 @@
 	background-size: cover;
 	.titulo-contacto {
 		@include display-center;
+		padding-top: 30px;
 		h2 {
 			color:#fff;
 			text-align: center;
