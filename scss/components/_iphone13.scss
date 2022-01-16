@@ -1,14 +1,15 @@
-@import "../_mixin.scss","../_footer.scss";
+@import "../_mixin.scss","../_footer.scss","../_navbar.scss";
 
 /*Estilo section-1 iphone13*/
 .section-1 {
 	background: lightblue;
 	.titulo-section1 {
 		@include display-center; 
-		padding-top: 30px;
+		padding-top: 60px;
 		span {
 			font-size: 25px;
 			font-family: 'Oswald', sans-serif;
+			color: #000000;
 		}
 	}
 

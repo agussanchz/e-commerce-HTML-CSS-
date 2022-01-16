@@ -1,4 +1,4 @@
-@import "../_mixin.scss","../_footer.scss";
+@import "../_mixin.scss","../_footer.scss","../_navbar.scss";
 
 /*Estilo main Contacto*/
 .contacto {
@@ -6,7 +6,7 @@
 	background-size: cover;
 	.titulo-contacto {
 		@include display-center;
-		padding-top: 30px;
+		padding-top: 60px;
 		h2 {
 			color:#fff;
 			text-align: center;

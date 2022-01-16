@@ -1,0 +1,19 @@
+.navbar {
+	position:fixed;
+	z-index:99; 
+	width: 100%;
+	background: #000000;
+	a {
+		color: #F9F9F9;
+	}
+}
+
+.navbar-nav {
+	.nav-link {
+		color: #F9F9F9;
+	}
+}
+
+button, span, .navbar-toggler-icon, i {
+	color: white;
+}

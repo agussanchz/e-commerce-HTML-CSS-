@@ -23,6 +23,20 @@ footer {
     width: 50px;
     height: 50px; }
 
+.navbar {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  background: #000000; }
+  .navbar a {
+    color: #F9F9F9; }
+
+.navbar-nav .nav-link {
+  color: #F9F9F9; }
+
+button, span, .navbar-toggler-icon, i {
+  color: white; }
+
 /*Estilo header*/
 header {
   background: #000000; }
@@ -31,7 +45,7 @@ header {
 .seccion-iphone13 {
   background-color: #000000; }
   .seccion-iphone13 .titulo-header {
-    padding-top: 30px;
+    padding-top: 60px;
     display: flex;
     justify-content: center; }
     .seccion-iphone13 .titulo-header h1 {
@@ -50,6 +64,7 @@ header {
     .seccion-iphone13 .info-header a {
       color: #3265EE; }
       .seccion-iphone13 .info-header a i {
+        color: blue;
         padding-left: 5px; }
   .seccion-iphone13 .imagen-header img {
     width: 100%;
@@ -88,6 +103,7 @@ header {
     .seccion-tienda .info-watch a {
       color: #3265EE; }
       .seccion-tienda .info-watch a i {
+        color: blue;
         padding-left: 5px; }
   .seccion-tienda .imagen-watch img {
     width: 100%;
@@ -140,21 +156,36 @@ footer {
     width: 50px;
     height: 50px; }
 
+.navbar {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  background: #000000; }
+  .navbar a {
+    color: #F9F9F9; }
+
+.navbar-nav .nav-link {
+  color: #F9F9F9; }
+
+button, span, .navbar-toggler-icon, i {
+  color: white; }
+
 /*Estilo titulo de entrada*/
 .cartel-store {
   background-color: #000000; }
   .cartel-store .tienda {
-    width: 100%;
     height: 500px;
     align-items: center;
     display: flex;
     justify-content: center; }
-    .cartel-store .tienda .titulo-tienda h2 {
-      font-size: 90px;
-      font-family: 'Fjalla One', sans-serif;
-      color: white;
-      animation-name: opacar;
-      animation-duration: 3s; }
+    .cartel-store .tienda .titulo-tienda {
+      width: 100; }
+      .cartel-store .tienda .titulo-tienda h2 {
+        font-size: 90px;
+        font-family: 'Fjalla One', sans-serif;
+        color: white;
+        animation-name: opacar;
+        animation-duration: 3s; }
 
 @keyframes opacar {
   0% {
@@ -164,10 +195,13 @@ footer {
 
 /*Estilo seccion celulares*/
 .section-iphone .titulo-iphone {
+  width: 100%;
   display: flex;
   justify-content: center; }
   .section-iphone .titulo-iphone h2 {
     padding-top: 30px; }
+    .section-iphone .titulo-iphone h2 i {
+      color: #000000; }
 
 .section-iphone .section-celulares {
   padding: 5px; }
@@ -213,6 +247,8 @@ footer {
   display: flex;
   justify-content: center;
   padding-top: 30px; }
+  .section-watch .titulo-watch i {
+    color: #000000; }
 
 .section-watch .section-relojes {
   padding: 5px; }
@@ -311,6 +347,11 @@ footer {
         width: 100%;
         height: auto; }
 
+/*Estilo para que no se produzca scroll horizontal*/
+.not-scroll {
+  width: 100%;
+  margin: 0 auto; }
+
 footer {
   background-color: black;
   height: 200px;
@@ -336,16 +377,31 @@ footer {
     width: 50px;
     height: 50px; }
 
+.navbar {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  background: #000000; }
+  .navbar a {
+    color: #F9F9F9; }
+
+.navbar-nav .nav-link {
+  color: #F9F9F9; }
+
+button, span, .navbar-toggler-icon, i {
+  color: white; }
+
 /*Estilo section-1 iphone13*/
 .section-1 {
   background: lightblue; }
   .section-1 .titulo-section1 {
     display: flex;
     justify-content: center;
-    padding-top: 30px; }
+    padding-top: 60px; }
     .section-1 .titulo-section1 span {
       font-size: 25px;
-      font-family: 'Oswald', sans-serif; }
+      font-family: 'Oswald', sans-serif;
+      color: #000000; }
   .section-1 .subtitulo-section1 {
     display: flex;
     justify-content: center; }
@@ -419,6 +475,20 @@ footer {
     width: 50px;
     height: 50px; }
 
+.navbar {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  background: #000000; }
+  .navbar a {
+    color: #F9F9F9; }
+
+.navbar-nav .nav-link {
+  color: #F9F9F9; }
+
+button, span, .navbar-toggler-icon, i {
+  color: white; }
+
 /*Estilo main Contacto*/
 .contacto {
   background-image: url("../utils/imagenes/ImgContacto.jpg");
@@ -427,7 +497,7 @@ footer {
   .contacto .titulo-contacto {
     display: flex;
     justify-content: center;
-    padding-top: 30px; }
+    padding-top: 60px; }
     .contacto .titulo-contacto h2 {
       color: #fff;
       text-align: center; }
@@ -474,6 +544,20 @@ footer {
       min-height: 200px;
       max-height: 200px;
       max-width: 100%; }
+
+.navbar {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  background: #000000; }
+  .navbar a {
+    color: #F9F9F9; }
+
+.navbar-nav .nav-link {
+  color: #F9F9F9; }
+
+button, span, .navbar-toggler-icon, i {
+  color: white; }
 
 footer {
   background-color: black;
